@@ -1,4 +1,3 @@
-# $Revision: 1.6 $ $Date: 2003-05-26 16:24:56 $
 Summary:	File manager using the two-pane design and Gtk+
 Summary(pl):	Zarz±dca plików oparty na bibliotece GTK+
 Name:		emelfm
