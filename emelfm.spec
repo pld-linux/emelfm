@@ -1,4 +1,4 @@
-# $Revision: 1.2 $ $Date: 2002-03-03 08:40:59 $
+# $Revision: 1.2.2.1 $ $Date: 2003-07-11 12:00:49 $
 Summary:	File manager using the two-pane design and Gtk+
 Summary(pl):	Mened¿er plików oparty na bibliotece GTK+
 Name:		emelfm
