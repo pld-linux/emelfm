@@ -1,0 +1,13 @@
+diff -ur emelfm-0.9.2-org/Makefile.common emelfm-0.9.2/Makefile.common
+--- emelfm-0.9.2-org/Makefile.common	Thu Dec  7 18:51:09 2000
++++ emelfm-0.9.2/Makefile.common	Sun Feb 24 14:19:41 2002
+@@ -1,7 +1,7 @@
+-PREFIX = /usr/local
++PREFIX = /usr
+ BIN_DIR = $(PREFIX)/bin
+ LOCALEDIR = $(PREFIX)/share/locale
+-PLUGINS_DIR = $(PREFIX)/share/emelfm/plugins
++PLUGINS_DIR = $(PREFIX)/lib/emelfm
+ DOC_DIR = $(PREFIX)/share/emelfm/docs
+ 
+ NLS = -DENABLE_NLS
