@@ -2,7 +2,7 @@ Summary:	File manager using the two-pane design and Gtk+
 Summary(pl):	Zarz±dca plików oparty na bibliotece GTK+
 Name:		emelfm
 Version:	0.9.2
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications
 Source0:	http://emelfm.sourceforge.net/%{name}-%{version}.tar.gz
