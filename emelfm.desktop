@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Emelfm
+Name[pl]=Emelfm
+Comment=Two panel file manager
+Comment[pl]=Dwupanelowy zarządca plików
+Exec=emelfm
+Terminal=false
+Icon=emelfm.png
+Type=Application
+Categories=GTK;Utility;FileManager;
+# vi: encoding=utf-8
