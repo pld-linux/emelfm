@@ -1,4 +1,4 @@
-# $Revision: 1.5 $ $Date: 2003-05-25 05:47:09 $
+# $Revision: 1.6 $ $Date: 2003-05-26 16:24:56 $
 Summary:	File manager using the two-pane design and Gtk+
 Summary(pl):	Zarz±dca plików oparty na bibliotece GTK+
 Name:		emelfm
@@ -7,6 +7,7 @@ Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://emelfm.sourceforge.net/%{name}-%{version}.tar.gz
+# Source0-md5:	7a1c8bd369d94be5bca409439d74da14
 Patch0:		%{name}-plugin_path.patch
 URL:		http://emelfm.sourceforge.net/
 BuildRequires:	gtk+-devel >= 1.2.0
