@@ -1,4 +1,4 @@
-# $Revision: 1.3 $ $Date: 2002-11-25 01:40:36 $
+# $Revision: 1.4 $ $Date: 2003-01-18 22:46:45 $
 Summary:	File manager using the two-pane design and Gtk+
 Summary(pl):	Zarz±dca plików oparty na bibliotece GTK+
 Name:		emelfm
@@ -12,8 +12,6 @@ URL:		http://emelfm.sourceforge.net/
 BuildRequires:	gtk+-devel >= 1.2.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix		/usr/X11R6
-%define		_mandir		%{_prefix}/man
 
 %description
 emelFM is a file manager that implements the popular two-pane design.
