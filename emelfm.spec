@@ -12,7 +12,6 @@ URL:		http://emelfm.sourceforge.net/
 BuildRequires:	gtk+-devel >= 1.2.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-
 %description
 emelFM is a file manager that implements the popular two-pane design.
 It features a simple GTK+ interface, a flexible filetyping scheme, and
@@ -34,7 +33,8 @@ interfejs graficzny oparty o bibliotekê GTK+.
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_bindir},%{_libdir}/%{name}}
 
-# %{__make} install DESTDIR=$RPM_BUILD_ROOT
+# %{__make} install \
+#	DESTDIR=$RPM_BUILD_ROOT
 
 install emelfm $RPM_BUILD_ROOT%{_bindir}
 install plugins/*.so $RPM_BUILD_ROOT%{_libdir}/%{name}
