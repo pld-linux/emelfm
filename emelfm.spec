@@ -1,6 +1,6 @@
-# $Revision: 1.2 $ $Date: 2002-03-03 08:40:59 $
+# $Revision: 1.3 $ $Date: 2002-11-25 01:40:36 $
 Summary:	File manager using the two-pane design and Gtk+
-Summary(pl):	Mened¿er plików oparty na bibliotece GTK+
+Summary(pl):	Zarz±dca plików oparty na bibliotece GTK+
 Name:		emelfm
 Version:	0.9.2
 Release:	1
@@ -22,7 +22,7 @@ a built-in command line for executing commands without opening an
 xterm.
 
 %description -l pl
-emelFM jest klasycznym, dwupanelowym mened¿erem plików. Ma prosty
+emelFM jest klasycznym, dwupanelowym zarz±dc± plików. Ma prosty
 interfejs graficzny oparty o bibliotekê GTK+.
 
 %prep
@@ -41,14 +41,12 @@ install -d $RPM_BUILD_ROOT{%{_bindir},%{_libdir}/%{name}}
 install emelfm $RPM_BUILD_ROOT%{_bindir}
 install plugins/*.so $RPM_BUILD_ROOT%{_libdir}/%{name}
 
-gzip -9nf README ChangeLog docs/help.txt
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz docs
+%doc README ChangeLog docs
 %attr(755,root,root) %{_bindir}/%{name}
 %dir %{_libdir}/%{name}
 %attr(755,root,root) %{_libdir}/%{name}/*.so
