@@ -7,6 +7,7 @@ License:	GPL
 Group:		X11/Applications
 Source0:	http://emelfm.sourceforge.net/%{name}-%{version}.tar.gz
 # Source0-md5:	7a1c8bd369d94be5bca409439d74da14
+Source1:	%{name}.desktop
 Patch0:		%{name}-plugin_path.patch
 URL:		http://emelfm.sourceforge.net/
 BuildRequires:	gtk+-devel >= 1.2.0
@@ -31,13 +32,14 @@ interfejs graficzny oparty o bibliotekê GTK+.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT{%{_bindir},%{_libdir}/%{name}}
+install -d $RPM_BUILD_ROOT{%{_bindir},%{_libdir}/%{name},%{_desktopdir}}
 
 # %{__make} install \
 #	DESTDIR=$RPM_BUILD_ROOT
 
 install emelfm $RPM_BUILD_ROOT%{_bindir}
 install plugins/*.so $RPM_BUILD_ROOT%{_libdir}/%{name}
+install %{SOURCE1} $RPM_BUILD_ROOT%{_desktopdir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
