@@ -1,5 +1,5 @@
 Summary:	File manager using the two-pane design and Gtk+
-Summary(pl):	Zarz±dca plików oparty na bibliotece GTK+
+Summary(pl.UTF-8):   ZarzÄ…dca plikÃ³w oparty na bibliotece GTK+
 Name:		emelfm
 Version:	0.9.2
 Release:	2
@@ -20,9 +20,9 @@ It features a simple GTK+ interface, a flexible filetyping scheme, and
 a built-in command line for executing commands without opening an
 xterm.
 
-%description -l pl
-emelFM jest klasycznym, dwupanelowym zarz±dc± plików. Ma prosty
-interfejs graficzny oparty o bibliotekê GTK+.
+%description -l pl.UTF-8
+emelFM jest klasycznym, dwupanelowym zarzÄ…dcÄ… plikÃ³w. Ma prosty
+interfejs graficzny oparty o bibliotekÄ™ GTK+.
 
 %prep
 %setup  -q
