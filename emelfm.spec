@@ -1,5 +1,5 @@
 Summary:	File manager using the two-pane design and Gtk+
-Summary(pl.UTF-8):   Zarządca plików oparty na bibliotece GTK+
+Summary(pl.UTF-8):	Zarządca plików oparty na bibliotece GTK+
 Name:		emelfm
 Version:	0.9.2
 Release:	2
