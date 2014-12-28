@@ -10,7 +10,7 @@ Source0:	http://emelfm.sourceforge.net/%{name}-%{version}.tar.gz
 Source1:	%{name}.desktop
 Patch0:		%{name}-plugin_path.patch
 URL:		http://emelfm.sourceforge.net/
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	gtk+-devel >= 1.2.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
